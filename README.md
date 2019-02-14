@@ -2,7 +2,9 @@ This is a custom script written for a rather unique use case. The script will ta
 
 ## How to use ##
  - cp scripts over to mgmt station (this script is intended to run directly on the mgmt station)
-  - I highly recommend that you do this in it's own folder
+    - I highly recommend that you do this in it's own folder
+ - vi ip.txt
+    - Enter one IPv4 Address per-line
  - execute ./ip_list_host_check.sh
     - Follow the prompts
     - Output will be in a txt file host_set.txt
